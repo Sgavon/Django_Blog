@@ -1,1 +1,1 @@
-# Python_330_Django_A06
+# Python_330_A06_Django_Blog
