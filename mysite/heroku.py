@@ -6,7 +6,7 @@ from .settings import *
 
 DATABASE = {
     "default": dj_database_url.config(
-        fedault="sqlite:///" + os.path.join(BASE_DIR, "db.sqlite3")
+        default="sqlite:///" + os.path.join(BASE_DIR, "db.sqlite3")
         )
 }
 
