@@ -28,6 +28,6 @@ class PollDetailView(DetailView):
         return render(request, "polling/detail.html", context)
 
 
-def list_view(request):
-    context = {"polls": Poll.objects.all()}
-    return render(request, "polling/list.html", context)
+# def list_view(request):
+#     context = {"polls": Poll.objects.all()}
+#     return render(request, "polling/list.html", context)
